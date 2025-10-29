@@ -34,6 +34,7 @@ Teenagers (<20) → churn rate 6% (lowest)
 Product Usage:
 
 Products 3 & 4 → significantly higher churn
+
 **Suggestions for The Bank Should Doing**
 Credit Card Offerings:
 With 70% customer adoption, credit card products are a proven strength. The bank should maintain strong promotion of these offerings and consider introducing tiered benefit packages to serve different customer segments more effectively.
