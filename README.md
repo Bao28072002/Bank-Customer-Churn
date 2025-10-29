@@ -1,8 +1,11 @@
 **OverView**
 <img width="1430" height="797" alt="image" src="https://github.com/user-attachments/assets/307bd233-b9d5-4cc3-a262-e136500fcbb6" />
+
 **Risk Impact Analysis**
 <img width="1416" height="809" alt="image" src="https://github.com/user-attachments/assets/144999e7-2538-416f-aeb0-c080918c7cf7" />
+
 **Insight**
+
 Customer Demographics
 Total customers: 10,000.
 Gender: 55% male, 45% female.
@@ -36,6 +39,7 @@ Product Usage:
 Products 3 & 4 → significantly higher churn
 
 **Suggestions for The Bank Should Doing**
+
 Credit Card Offerings:
 With 70% customer adoption, credit card products are a proven strength. The bank should maintain strong promotion of these offerings and consider introducing tiered benefit packages to serve different customer segments more effectively.
 
