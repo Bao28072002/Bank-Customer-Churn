@@ -35,16 +35,12 @@ Product Usage:
 
 Products 3 & 4 → significantly higher churn
 **Suggestions for The Bank Should Doing**
-1.Credit Card Offerings
+Credit Card Offerings:
+With 70% customer adoption, credit card products are a proven strength. The bank should maintain strong promotion of these offerings and consider introducing tiered benefit packages to serve different customer segments more effectively.
 
-	With 70% customer adoption, credit card products are a proven strength. The bank should maintain strong promotion of these offerings and consider introducing tiered benefit packages to serve different customer segments more effectively.
+Product 1 & Product 2 Engagement:
+Product 1: Highest usage, proving strong alignment with customer needs. Continue enhancing and promoting this product to sustain engagement and satisfaction.
+Product 2: Lowest churn rate among all products. Expanding its reach to a broader base could help further reduce overall churn.
 
-2.Product 1 & Product 2 Engagement
-
-	Product 1: Highest usage, proving strong alignment with customer needs. Continue enhancing and promoting this product to sustain engagement and satisfaction.
-
-	Product 2: Lowest churn rate among all products. Expanding its reach to a broader base could help further reduce overall churn.
-
-3.Middle-Income Customer Retention
-
-	Middle-income customers (churn rate 20%, lowest among income groups) are well-served by current offerings. The bank should continue strengthening its value proposition for this segment to ensure loyalty and long-term retention.
+Middle-Income Customer Retention:
+Middle-income customers (churn rate 20%, lowest among income groups) are well-served by current offerings. The bank should continue strengthening its value proposition for this segment to ensure loyalty and long-term retention.
