@@ -1,8 +1,8 @@
-`**OverView**`
+**OverView**
 <img width="1430" height="797" alt="image" src="https://github.com/user-attachments/assets/307bd233-b9d5-4cc3-a262-e136500fcbb6" />
-`**Risk Impact Analysis**`
+**Risk Impact Analysis**
 <img width="1416" height="809" alt="image" src="https://github.com/user-attachments/assets/144999e7-2538-416f-aeb0-c080918c7cf7" />
-`**Insight **`
+**Insight **
 Customer Demographics
 Total customers: 10,000.
 Gender: 55% male, 45% female.
@@ -34,12 +34,10 @@ Teenagers (<20) → churn rate 6% (lowest)
 Product Usage:
 
 Products 3 & 4 → significantly higher churn
-`**Suggestions for The Bank Should Doing**`
+**Suggestions for The Bank Should Doing**
 1.Credit Card Offerings
 
 	With 70% customer adoption, credit card products are a proven strength. The bank should maintain strong promotion of these offerings and consider introducing tiered benefit packages to serve different customer segments more effectively.
-
-
 
 2.Product 1 & Product 2 Engagement
 
@@ -47,10 +45,6 @@ Products 3 & 4 → significantly higher churn
 
 	Product 2: Lowest churn rate among all products. Expanding its reach to a broader base could help further reduce overall churn.
 
-
-
 3.Middle-Income Customer Retention
-
-
 
 	Middle-income customers (churn rate 20%, lowest among income groups) are well-served by current offerings. The bank should continue strengthening its value proposition for this segment to ensure loyalty and long-term retention.
