@@ -73,39 +73,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 | **CreditScore** | Integer | Individual credit score (Ranging from 300 to 850). | Financial |
 | **Geography** | String | Country/Region of residence (France, Spain, Germany). | Demographic |
 | **Gender** | String | Customer's gender. | Demographic |
-| **Age** | Integer | Customer's age. | Demographic |
-| **Tenure** | Integer | Duration as a customer (number of years). | Behavioral |
-| **Balance** | Float | Average account balance held with the bank. | Financial |
-| **NumOfProducts** | Integer | Number of bank products the customer uses (1, 2, 3, or 4). | Behavioral/Product |
-| **HasCrCard** | Binary (0/1) | Whether the customer holds a credit card (1: Yes, 0: No). | Behavioral |
-| **IsActiveMember** | Binary (0/1) | Whether the customer is an active member in the last 6 months (1: Yes, 0: No). | Behavioral/Engagement |
-| **EstimatedSalary**| Float | Estimated annual salary. | Financial |
-| **Exited** | **Binary (0/1)** | **TARGET VARIABLE:** 1 if the customer has left the bank (Churn), 0 if they remained. | **TARGET** |
-
-</details>
-
----
-
-- 🧑‍💼 **Dim_Customer** 
-
-<details>
-<summary><strong>Table 2: Customer</strong></summary>
-
-| Column Name           | Description                                |
-|------------------------|--------------------------------------------|
-| `CustomerId`            | Unique identifier for the customer         |
-| `Surname` | Customer's last name                  |
-
----
-
-- 🧍 **Dim_Gender** 
-
-<details>
-<summary><strong>Table 3: Gender</strong></summary>
-
-| Column Name           | Description                                |
-|------------------------|--------------------------------------------|
-| `GenderId`            | Unique identifier for the gender category      |
+| **Age** | Integer | CustoGenderID`            | Unique identifier for the gender category      |
 | `Gender` | Customer's gender                 |
 
 </details>
@@ -119,9 +87,10 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
-| `GeographyId`            | Unique identifier for the geography category      |
+| `GeographyID`            | Unique identifier for the geography category      |
 | `Geography` | Customer's Geography                |   
 
+</details>
 ---
 
 - 🧾 **Dim_HasCard** 
@@ -131,21 +100,38 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
-| `HasCrCardId`            | Unique identifier for the HasCrCardCategory category      |
+| `HasCrCardID`            | Unique identifier for the HasCrCardCategory category      |
 | `HasCrCardCategory` | Customer's HasCrCardCategory                |   
 
+</details>
 ---
 
-- 🧾 **Dim_IsActiveMember** 
+- 📊 **Dim_IsActiveMember** 
 
 <details>
-<summary><strong>Table 5:IsActiveMember</strong></summary>
+<summary><strong>Table 6:IsActiveMember</strong></summary>
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
 | `IsActiveCategory`            | Customer's IsActiveMember      |
-| `IsActiveMemberId` | Unique identifier for the IsActiveMember category ( 0,1 )             |   
+| `IsActiveMemberID` | Unique identifier for the IsActiveMember category ( 0,1 )             |   
 
+</details>
+---
+
+- ⚠️ **Dim_Exited** 
+
+<details>
+<summary><strong>Table 7:IsExited</strong></summary>
+
+| Column Name           | Description                                |
+|------------------------|--------------------------------------------|
+| `ExitedCategory`            | Customer's IsExited      |
+| `ExitedID` | Unique identifier for the exited category ( 0,1 )             |   
+
+</details>
+
+---
 
 **OverView**
 <img width="1430" height="797" alt="image" src="https://github.com/user-attachments/assets/307bd233-b9d5-4cc3-a262-e136500fcbb6" />
