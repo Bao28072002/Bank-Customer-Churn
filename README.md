@@ -83,7 +83,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 - 🌍 **Dim_Geography** 
 
 <details>
-<summary><strong>Table 4:Geography</strong></summary>
+<summary><strong>Table 2:Geography</strong></summary>
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
@@ -97,7 +97,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 - 🧾 **Dim_HasCard** 
 
 <details>
-<summary><strong>Table 5:HasCard</strong></summary>
+<summary><strong>Table 3:HasCard</strong></summary>
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
@@ -111,7 +111,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 - 📊 **Dim_IsActiveMember** 
 
 <details>
-<summary><strong>Table 6:IsActiveMember</strong></summary>
+<summary><strong>Table 4:IsActiveMember</strong></summary>
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
@@ -125,7 +125,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 - ⚠️ **Dim_Exited** 
 
 <details>
-<summary><strong>Table 7:IsExited</strong></summary>
+<summary><strong>Table 5:IsExited</strong></summary>
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
