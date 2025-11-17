@@ -60,9 +60,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 ---
 
 ### 📊 **Data Structure & Relationships**  
-
-#### 1️⃣ **Tables Used:**  
-
+ 
 - 📦 **Fact_Bank_Churn** .
 
 <details>
@@ -110,8 +108,44 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 | `GenderId`            | Unique identifier for the gender category      |
 | `Gender` | Customer's gender                 |
 
-
 </details>
+
+---
+
+- 🌍 **Dim_Geography** 
+
+<details>
+<summary><strong>Table 4:Geography</strong></summary>
+
+| Column Name           | Description                                |
+|------------------------|--------------------------------------------|
+| `GeographyId`            | Unique identifier for the geography category      |
+| `Geography` | Customer's Geography                |   
+
+---
+
+- 🧾 **Dim_HasCard** 
+
+<details>
+<summary><strong>Table 5:HasCard</strong></summary>
+
+| Column Name           | Description                                |
+|------------------------|--------------------------------------------|
+| `HasCrCardId`            | Unique identifier for the HasCrCardCategory category      |
+| `HasCrCardCategory` | Customer's HasCrCardCategory                |   
+
+---
+
+- 🧾 **Dim_IsActiveMember** 
+
+<details>
+<summary><strong>Table 5:IsActiveMember</strong></summary>
+
+| Column Name           | Description                                |
+|------------------------|--------------------------------------------|
+| `IsActiveCategory`            | Customer's IsActiveMember      |
+| `IsActiveMemberId` | Unique identifier for the IsActiveMember category ( 0,1 )             |   
+
 
 **OverView**
 <img width="1430" height="797" alt="image" src="https://github.com/user-attachments/assets/307bd233-b9d5-4cc3-a262-e136500fcbb6" />
