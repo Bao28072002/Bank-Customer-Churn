@@ -83,7 +83,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 - 🌍 **Dim_Geography** 
 
 <details>
-<summary><strong>Table 2:Geography</strong></summary>
+<summary><strong>Table 2: Geography</strong></summary>
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
@@ -97,7 +97,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 - 🧾 **Dim_HasCard** 
 
 <details>
-<summary><strong>Table 3:HasCard</strong></summary>
+<summary><strong>Table 3: HasCard</strong></summary>
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
@@ -111,7 +111,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 - 📊 **Dim_IsActiveMember** 
 
 <details>
-<summary><strong>Table 4:IsActiveMember</strong></summary>
+<summary><strong>Table 4: IsActiveMember</strong></summary>
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
@@ -125,7 +125,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 - ⚠️ **Dim_Exited** 
 
 <details>
-<summary><strong>Table 5:IsExited</strong></summary>
+<summary><strong>Table 5: IsExited</strong></summary>
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
@@ -139,7 +139,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 - 🧑‍💼 **Dim_Customer** 
 
 <details>
-<summary><strong>Table 6:Customer</strong></summary>
+<summary><strong>Table 6: Customer</strong></summary>
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
@@ -153,13 +153,27 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 - 🧑‍💼 **Dim_Age** 
 
 <details>
-<summary><strong>Table 7:Age</strong></summary>
+<summary><strong>Table 7: Age</strong></summary>
 
 | Column Name           | Description                                |
 |------------------------|--------------------------------------------|
 | `Age`            | Customer's Age      |
 | `AgeName` | Broad age classification (e.g., Adult, Middle-aged,..).          |   
 | `Age Group Detail` | Detailed age range classification             |  
+
+</details>
+
+---
+
+- 👥 **Dim_Gender** 
+
+<details>
+<summary><strong>Table 8: Gender</strong></summary>
+
+| Column Name           | Description                                |
+|------------------------|--------------------------------------------|
+| `Gender`            | Customer's gender      |
+| `GenderID` | Unique identifier for the Gender category ( 0,1 )          |   
 
 </details>
 
