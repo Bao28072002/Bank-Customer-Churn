@@ -136,6 +136,35 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 
 ---
 
+- 🧑‍💼 **Dim_Customer** 
+
+<details>
+<summary><strong>Table 6:Customer</strong></summary>
+
+| Column Name           | Description                                |
+|------------------------|--------------------------------------------|
+| `Surname`            | Customer's Surname      |
+| `CustomerID` | Unique identifier for the Customer             |   
+
+</details>
+
+---
+
+- 🧑‍💼 **Dim_Age** 
+
+<details>
+<summary><strong>Table 7:Age</strong></summary>
+
+| Column Name           | Description                                |
+|------------------------|--------------------------------------------|
+| `Age`            | Customer's Age      |
+| `AgeName` | Broad age classification (e.g., Adult, Middle-aged,..).          |   
+| `Age Group Detail` | Detailed age range classification             |  
+
+</details>
+
+---
+
 **OverView**
 <img width="1430" height="797" alt="image" src="https://github.com/user-attachments/assets/307bd233-b9d5-4cc3-a262-e136500fcbb6" />
 
