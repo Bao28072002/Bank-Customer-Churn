@@ -1,3 +1,118 @@
+# 📈 Predictive Bank Customer Churn Analysis and Effective Retention Strategy Recommendation | Power BI
+
+**Author:** Lê Gia Bảo
+
+**Date:** August 2025
+
+**Tools Used:** Power BI
+
+## 📑 Table of Contents  
+1. [📌 Background & Overview](#-background--overview)  
+2. [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)  
+3. [🧠 Design Thinking Process](#-design-thinking-process)  
+4. [📊 Key Insights & Visualizations](#-key-insights--visualizations)  
+5. [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)
+
+---
+
+## 📌 Background & Overview  
+
+**📖 What is this project about?**
+
+The main goal of this project is to use historical data to **analyze** customer behavior and build a **predictive** model to identify customers at high risk of **churn** (*attrition*)
+
+The main goal is to give senior managers **clear, data-backed insights** so they can:
+
+* **Understand current business performance** (See how well the company is doing right now).
+* **Optimize market expansion strategies** (Figure out the best ways and places to grow the business).
+* **Identify strategic products for growth** (Find the products that should be prioritized for maximum success).
+* **Support better decision-making to drive revenue** (Use facts to make choices that boost sales).
+
+**👤 Who is this project for?**
+
+✔️ Data Analysis: Build risk prediction models and identify core drivers of customer churn
+
+✔️ Marketing & Retention: Improve retention rates with targeted intervention campaigns, increasing customer value.
+
+✔️ Strategy & Operations: Optimize service channels and resources in high-risk areas.
+
+
+**❓Business Questions:**
+
+✔️ Which behavioral and product-related factors are the strongest drivers of churn?
+
+✔️ What are the most impactful intervention points for optimizing retention spend?
+
+✔️ How is the highest-risk customer segment defined by combining demographics and geography?
+
+---
+
+## 📂 Dataset Description & Data Structure
+
+### **📌 Data Source**
+
+* **Source**: Kaggle
+* **File Name:** `Bank_Churn.csv`
+* **Source:** Historical data containing customer profiles and transaction details from a bank.
+* **Size:** 10,000 records (rows), 13 fields (columns).
+* **Objective:** To build a Classification Model to predict the **Exited** field (customer churn).
+
+---
+
+### 📊 **Data Structure & Relationships**  
+
+#### 1️⃣ **Tables Used:**  
+
+- 📦 **Fact_Bank_Churn** .
+
+<details>
+<summary><strong>Table 1: Bank_Churn</strong></summary>
+
+| Column Name | Data Type (Dtype) | Detailed Description | Category |
+| :--- | :--- | :--- | :--- |
+| **CustomerId** | Integer | Unique identifier for the customer. | ID |
+| **Surname** | String | Customer's last name. | ID |
+| **CreditScore** | Integer | Individual credit score (Ranging from 300 to 850). | Financial |
+| **Geography** | String | Country/Region of residence (France, Spain, Germany). | Demographic |
+| **Gender** | String | Customer's gender. | Demographic |
+| **Age** | Integer | Customer's age. | Demographic |
+| **Tenure** | Integer | Duration as a customer (number of years). | Behavioral |
+| **Balance** | Float | Average account balance held with the bank. | Financial |
+| **NumOfProducts** | Integer | Number of bank products the customer uses (1, 2, 3, or 4). | Behavioral/Product |
+| **HasCrCard** | Binary (0/1) | Whether the customer holds a credit card (1: Yes, 0: No). | Behavioral |
+| **IsActiveMember** | Binary (0/1) | Whether the customer is an active member in the last 6 months (1: Yes, 0: No). | Behavioral/Engagement |
+| **EstimatedSalary**| Float | Estimated annual salary. | Financial |
+| **Exited** | **Binary (0/1)** | **TARGET VARIABLE:** 1 if the customer has left the bank (Churn), 0 if they remained. | **TARGET** |
+
+</details>
+
+---
+
+- 🧑‍💼 **Dim_Customer** 
+
+<details>
+<summary><strong>Table 2: Customer</strong></summary>
+
+| Column Name           | Description                                |
+|------------------------|--------------------------------------------|
+| `CustomerId`            | Unique identifier for the customer         |
+| `Surname` | Customer's last name                  |
+
+---
+
+- 🧍 **Dim_Gender** 
+
+<details>
+<summary><strong>Table 3: Gender</strong></summary>
+
+| Column Name           | Description                                |
+|------------------------|--------------------------------------------|
+| `GenderId`            | Unique identifier for the gender category      |
+| `Gender` | Customer's gender                 |
+
+
+</details>
+
 **OverView**
 <img width="1430" height="797" alt="image" src="https://github.com/user-attachments/assets/307bd233-b9d5-4cc3-a262-e136500fcbb6" />
 
