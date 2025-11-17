@@ -91,6 +91,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 | `Geography` | Customer's Geography                |   
 
 </details>
+
 ---
 
 - 🧾 **Dim_HasCard** 
@@ -104,6 +105,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 | `HasCrCardCategory` | Customer's HasCrCardCategory                |   
 
 </details>
+
 ---
 
 - 📊 **Dim_IsActiveMember** 
@@ -117,6 +119,7 @@ The main goal is to give senior managers **clear, data-backed insights** so they
 | `IsActiveMemberID` | Unique identifier for the IsActiveMember category ( 0,1 )             |   
 
 </details>
+
 ---
 
 - ⚠️ **Dim_Exited** 
